@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 /* eslint-disable arrow-body-style */
 import { useState } from 'react';
 // components
