@@ -6,7 +6,7 @@ import Logo from '../Logo';
 import styles from './Menu.module.scss';
 
 const Menu = () => {
-	console.log('object');
+	console.log('objectsdfgdfgdfgddfgdf');
 
 	return (
 		<div className={styles.menuWrapper}>
