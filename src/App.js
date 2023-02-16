@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+/* eslint-disable arrow-body-style */
+import { useState } from 'react';
+// components
+import Header from './components/Header';
+// styles
 import './App.css';
+import Loader from './components/Loader';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	const [preloader, setPreloader] = useState(true);
+	setTimeout(() => {
+		setPreloader(false);
+	}, 4000);
+
+	return <div className="App">{preloader ? <Loader /> : <Header />}</div>;
+};
 
 export default App;
