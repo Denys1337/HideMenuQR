@@ -10,9 +10,13 @@ const Menu = () => {
 
 	return (
 		<div className={styles.menuWrapper}>
-			<h2>Бар</h2>
+			<div className={styles.menuWrapper__item}>
+				<h2>Бар</h2>
+			</div>
 			<Logo />
-			<h2>Кухня</h2>
+			<div className={styles.menuWrapper__item}>
+				<h2>Кухня</h2>
+			</div>
 		</div>
 	);
 };
