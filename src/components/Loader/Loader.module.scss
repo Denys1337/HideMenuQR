@@ -2,10 +2,12 @@
 	display: flex;
 	justify-content: center;
 	height: 100vh;
+	max-width: 100%;
+	overflow: hidden;
 	align-items: center;
 	img {
 		width: 100%;
-		height: max-content;
+		height: auto;
 		animation-name: rotate;
 		animation-duration: 6s;
 		animation-iteration-count: 1;
