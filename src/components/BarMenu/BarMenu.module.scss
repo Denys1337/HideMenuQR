@@ -1,0 +1,28 @@
+.wrapper {
+	overflow: hidden;
+	position: sticky;
+	z-index: 9999;
+	top: -1px;
+	width: 100%;
+	background: #ed2d2e;
+	&__menu {
+		display: flex;
+		gap: 20px;
+		padding: 10px 0;
+		margin: 0 9px;
+		overflow-x: auto;
+		li {
+			list-style: none;
+			border: 1px solid #000;
+			border-radius: 50%;
+			min-width: 80px;
+			padding: 7px;
+			background: #000;
+			color: #fff;
+			a {
+				text-decoration: none;
+				color: #fff;
+			}
+		}
+	}
+}

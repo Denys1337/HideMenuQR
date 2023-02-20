@@ -1,0 +1,20 @@
+body {
+}
+
+.wrapper {
+	padding-top: 10px;
+	background: #ed2d2e;
+	padding-bottom: 40px;
+	&__item {
+		a {
+			text-decoration: none;
+			cursor: not-allowed;
+			pointer-events: none;
+			color: #000;
+			font-size: 30px;
+			font-weight: 800;
+			display: block;
+			padding: 20px 0;
+		}
+	}
+}
