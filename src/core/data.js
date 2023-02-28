@@ -53,7 +53,7 @@ export const dataBArMenu = [
   {
     id: 'nonAlcohol',
     link: '#nonAlcohol',
-    title: 'NonAlcohol',
+    title: 'Non Alcohol',
   },
   {
     id: 'crash',

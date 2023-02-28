@@ -5,10 +5,13 @@ import BarMenu from '../../components/BarMenu';
 // styles
 import styles from './Bar.module.scss';
 // helpers
-import { dataBArMenu } from '../../core/data';
+import { dataBar, dataBArMenu } from '../../core/data';
 
 const Bar = () => {
-	console.log('object');
+	const componentBarSection = id => {
+		const data = dataBar.filter(item => item.id === id);
+		return data[0].data.map(item => item);
+	};
 	return (
 		<div className={styles.wrapper}>
 			<BarMenu />
@@ -18,7 +21,9 @@ const Bar = () => {
 					<a href={item.link} id={item.id} aria-hidden="true">
 						{item.title}
 					</a>
-					<CardMenuItem />
+					{componentBarSection(item.id).map(item => (
+						<CardMenuItem item={item} key={item.id} />
+					))}
 				</div>
 			))}
 		</div>

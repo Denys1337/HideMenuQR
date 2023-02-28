@@ -15,9 +15,10 @@
 			list-style: none;
 			border: 1px solid #000;
 			border-radius: 50%;
-			min-width: 80px;
+			min-width: min-content;
 			padding: 7px;
 			background: #000;
+			white-space: nowrap;
 			color: #fff;
 			a {
 				text-decoration: none;
