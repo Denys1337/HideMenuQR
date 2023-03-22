@@ -1,7 +1,22 @@
 .wrapper {
 	margin: 10px;
 	background: #000 !important;
+	display: flex;
+	align-items: center;
+	padding: 5px;
 	h2 {
 		padding: 20px 0;
+	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+
+	&__image {
+		display: flex;
+		flex-shrink: 0;
+		max-width: 150px;
 	}
 }

@@ -1,4 +1,7 @@
 /* eslint-disable prettier/prettier */
+// images
+import Coctail from '../assets/images/1.png';
+
 export const dataBArMenu = [
   {
     id: 'tequila',
@@ -71,7 +74,7 @@ export const dataBar = [
         title: 'Марі Уайтго',
         description: 'Cолодкий коктейль , з кавово горіховим присмаком',
         price: '190',
-        image: ''
+        image: Coctail
       },
       {
         id: 2,
