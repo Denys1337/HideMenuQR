@@ -12,6 +12,8 @@ import pottatoWithPork from '../assets/images/pottatoWithPork.png';
 import salatGeorgia from '../assets/images/salatGeorgia.png';
 import springRoll from '../assets/images/springRoll.png';
 import Steak from '../assets/images/Steak.png';
+import dep from '../assets/images/dep.jpg';
+import basturma from '../assets/images/basturma.jpg';
 
 export const dataFoodMenu = [
   {
@@ -53,14 +55,15 @@ export const dataFoodMenu = [
     id: 6,
     title: 'Курча Тапака',
     description: 'Курча запечене за технологією Тапака, подається з гілочкою томатів чері та кисло-солодким соусом ',
-    price: '230',
+    price: '70',
+    ml: 'за 100 г',
     image: ChikenTapaka,
   },
   {
     id: 7,
     title: 'Стейк Особуко',
     description: 'Стейк із яловичої голяшки, заправлений соусом песто та овочі гриль',
-    price: '100',
+    price: '150',
     ml: 'за 100 г',
     image: Steak,
   },
@@ -69,7 +72,7 @@ export const dataFoodMenu = [
     title: 'Картопляні діпи',
     description: 'Наші фірмові Hide&Seek діпи з вершовим соусом',
     price: '70',
-    image: ''
+    image: dep,
   },
   {
     id: 9,
@@ -105,7 +108,7 @@ export const dataFoodMenu = [
     title: 'Бастурма',
     description: 'Бастурма курки чи теляти, власного виробництва',
     price: '145',
-    image: ''
+    image: basturma
   },
 ];
 
