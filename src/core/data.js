@@ -1,6 +1,113 @@
 /* eslint-disable prettier/prettier */
 // images
 import Coctail from '../assets/images/1.png';
+import Burger from '../assets/images/burger.png';
+import Aioli from '../assets/images/aioli.png';
+import ChikenTapaka from '../assets/images/chikenTapaka.png';
+import Kapreze from '../assets/images/Kapreze.png';
+import Krivetka from '../assets/images/Krivetka.png';
+import Midiya from '../assets/images/midiya.png';
+import pottatoWithCheese from '../assets/images/pottatoWithCheese.png';
+import pottatoWithPork from '../assets/images/pottatoWithPork.png';
+import salatGeorgia from '../assets/images/salatGeorgia.png';
+import springRoll from '../assets/images/springRoll.png';
+import Steak from '../assets/images/Steak.png';
+
+export const dataFoodMenu = [
+  {
+    id: 1,
+    title: 'Салат "Айолі"',
+    description: 'Креветка, рукола, ромен, апельсин, сир Пармезан, заправлений фірмовим соусом Айолі',
+    price: '170',
+    image: Aioli
+  },
+  {
+    id: 2,
+    title: 'Салат Грузинський',
+    description: 'Ромен, свіжий огірок, томат, синя цибуля',
+    price: '150',
+    image: salatGeorgia,
+  },
+  {
+    id: 3,
+    title: 'Салат Капрезе',
+    description: 'Моцарела, томат, рукола, заправлий зеленою олією',
+    price: '160',
+    image: Kapreze,
+  },
+  {
+    id: 4,
+    title: 'Спрінг рол з лососем',
+    description: 'Філе лосося, томат, огірок, сир Філадельфія, ромен, подається з горіховим соусом',
+    price: '150',
+    image: springRoll,
+  },
+  {
+    id: 5,
+    title: 'Тайський бургер',
+    description: 'Філе лосося, авокадо, огірок, томат, ромен, сир Філадельфія, горіховий соус, соус Унагі, тайська булка',
+    price: '220',
+    image: Burger,
+  },
+  {
+    id: 6,
+    title: 'Курча Тапака',
+    description: 'Курча запечене за технологією Тапака, подається з гілочкою томатів чері та кисло-солодким соусом ',
+    price: '230',
+    image: ChikenTapaka,
+  },
+  {
+    id: 7,
+    title: 'Стейк Особуко',
+    description: 'Стейк із яловичої голяшки, заправлений соусом песто та овочі гриль',
+    price: '100',
+    ml: 'за 100 г',
+    image: Steak,
+  },
+  {
+    id: 8,
+    title: 'Картопляні діпи',
+    description: 'Наші фірмові Hide&Seek діпи з вершовим соусом',
+    price: '70',
+    image: ''
+  },
+  {
+    id: 9,
+    title: 'Картопля під сирним соусом',
+    description: 'Ніжно запечена картопля під сирним соусом',
+    price: '85',
+    image: pottatoWithCheese,
+  },
+  {
+    id: 10,
+    title: 'Картопля по-домашньому з мясом там грибами',
+    description: 'Запечене картопля з пряною свининою та грибами',
+    price: '110',
+    image: pottatoWithPork
+  },
+  {
+    id: 11,
+    title: 'Мідії в вершковому соусі',
+    // eslint-disable-next-line no-useless-concat
+    description: 'Мідії заправлені вершовим соусом з сиром Пармезан, подається разом з грінками',
+    price: '190',
+    image: Midiya,
+  },
+  {
+    id: 12,
+    title: 'Пяна криветка',
+    description: 'Криветка маринована в апельсиновому лікері та подається з вершково-часниковим соусом',
+    price: '200',
+    image: Krivetka,
+  },
+  {
+    id: 13,
+    title: 'Бастурма',
+    description: 'Бастурма курки чи теляти, власного виробництва',
+    price: '145',
+    image: ''
+  },
+];
 
 export const dataBArMenu = [
   {
