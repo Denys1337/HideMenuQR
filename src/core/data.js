@@ -1,18 +1,18 @@
 /* eslint-disable prettier/prettier */
 // images
 import Coctail from '../assets/images/1.png';
-import Burger from '../assets/images/burger.png';
-import Aioli from '../assets/images/aioli.png';
-import ChikenTapaka from '../assets/images/chikenTapaka.png';
-import Kapreze from '../assets/images/Kapreze.png';
-import Krivetka from '../assets/images/Krivetka.png';
-import Midiya from '../assets/images/midiya.png';
-import pottatoWithCheese from '../assets/images/pottatoWithCheese.png';
-import pottatoWithPork from '../assets/images/pottatoWithPork.png';
-import salatGeorgia from '../assets/images/salatGeorgia.png';
-import springRoll from '../assets/images/springRoll.png';
-import Steak from '../assets/images/Steak.png';
-import dep from '../assets/images/dep.jpg';
+import Burger from '../assets/images/burger-min.png';
+import Aioli from '../assets/images/aioli-min.png';
+import ChikenTapaka from '../assets/images/chikenTapaka-min.png';
+import Kapreze from '../assets/images/Kapreze-min.png';
+import Krivetka from '../assets/images/Krivetka-min.png';
+import Midiya from '../assets/images/midiya-min.png';
+import pottatoWithCheese from '../assets/images/pottatoWithCheese-min.png';
+import pottatoWithPork from '../assets/images/pottatoWithPork-min.png';
+import salatGeorgia from '../assets/images/salatGeorgia-min.png';
+import springRoll from '../assets/images/springRoll-min.png';
+import Steak from '../assets/images/Steak-min.png';
+import dep from '../assets/images/dep-min.jpg';
 import basturma from '../assets/images/basturma.jpg';
 
 export const dataFoodMenu = [
@@ -83,14 +83,14 @@ export const dataFoodMenu = [
   },
   {
     id: 10,
-    title: 'Картопля по-домашньому з мясом там грибами',
+    title: 'Картопля по-домашньому з мясом та грибами',
     description: 'Запечене картопля з пряною свининою та грибами',
     price: '110',
     image: pottatoWithPork
   },
   {
     id: 11,
-    title: 'Мідії в вершковому соусі',
+    title: 'Мідії у вершковому соусі',
     // eslint-disable-next-line no-useless-concat
     description: 'Мідії заправлені вершовим соусом з сиром Пармезан, подається разом з грінками',
     price: '190',
@@ -98,7 +98,7 @@ export const dataFoodMenu = [
   },
   {
     id: 12,
-    title: 'Пяна криветка',
+    title: 'П`яна креветка',
     description: 'Криветка маринована в апельсиновому лікері та подається з вершково-часниковим соусом',
     price: '200',
     image: Krivetka,
@@ -106,7 +106,7 @@ export const dataFoodMenu = [
   {
     id: 13,
     title: 'Бастурма',
-    description: 'Бастурма курки чи теляти, власного виробництва',
+    description: 'Бастурма курки чи телятини власного виробництва',
     price: '145',
     image: basturma
   },

@@ -23,7 +23,7 @@ const CardMenuItem = ({ item }) => (
 				disableSpacing
 				sx={{ display: 'flex', justifyContent: item.description ? 'flex-end' : 'center', fontSize: '20px' }}
 			>
-				{item.price} грн
+				{item.price} грн {item.ml ? item.ml : ''}
 			</CardActions>
 		</div>
 	</Card>
