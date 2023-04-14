@@ -33,7 +33,7 @@ export const dataFoodMenu = [
   {
     id: 3,
     title: 'Салат Капрезе',
-    description: 'Моцарела, томат, рукола, заправлий зеленою олією',
+    description: 'Моцарела, томат, рукола, заправлений зеленою олією',
     price: '160',
     image: Kapreze,
   },
@@ -70,7 +70,7 @@ export const dataFoodMenu = [
   {
     id: 8,
     title: 'Картопляні діпи',
-    description: 'Наші фірмові Hide&Seek діпи з вершовим соусом',
+    description: 'Наші фірмові Hide&Seek діпи з вершковим соусом',
     price: '70',
     image: dep,
   },
@@ -84,7 +84,7 @@ export const dataFoodMenu = [
   {
     id: 10,
     title: 'Картопля по-домашньому з мясом та грибами',
-    description: 'Запечене картопля з пряною свининою та грибами',
+    description: 'Запечена картопля з пряною свининою та грибами',
     price: '110',
     image: pottatoWithPork
   },
@@ -99,7 +99,7 @@ export const dataFoodMenu = [
   {
     id: 12,
     title: 'П`яна креветка',
-    description: 'Криветка маринована в апельсиновому лікері та подається з вершково-часниковим соусом',
+    description: 'Креветка маринована в апельсиновому лікері та подається з вершково-часниковим соусом',
     price: '200',
     image: Krivetka,
   },
@@ -194,45 +194,10 @@ export const dataBar = [
         image: ''
       },
       {
-        id: 3,
-        title: 'Бандікут',
-        description: 'Солодкий кремово-малиновий смак',
-        price: '170',
-        image: ''
-      },
-      {
-        id: 4,
-        title: 'Belleville',
-        description: 'Чіткий відтінок солодкої малини в поєднанні зі всіма компонентами на фіналі віддає кисло-солодку нотку та стійкий після смак маракуї та апельсинів',
-        price: '210',
-        image: ''
-      },
-      {
-        id: 5,
-        title: 'Pirates love',
-        description: 'В напої яскраво виражається банан та доповнюють його безліч лікерів, які і надають коктейлю кисло-солодкий присмак з ніжним відчуттям мигдалю та смородини',
-        price: '',
-        image: ''
-      },
-      {
         id: 6,
         title: 'Amaretto sour',
         description: 'Легкий,горіховий,з легкою кислинкою',
         price: '200',
-        image: ''
-      },
-      {
-        id: 7,
-        title: 'Brendi Merry',
-        description: 'Молочний,середньої міцності,з ноткою кави',
-        price: '170',
-        image: ''
-      },
-      {
-        id: 8,
-        title: 'Nacional',
-        description: 'Солодкий,фруктовий,з легкою гірчинкою',
-        price: '190',
         image: ''
       },
       {
@@ -254,13 +219,6 @@ export const dataBar = [
         title: 'Blank space',
         // eslint-disable-next-line no-useless-concat
         description: 'Пряний,міцний,трав' + 'яний, точно знайде свого поціновувача',
-        price: '180',
-        image: ''
-      },
-      {
-        id: 12,
-        title: 'Lullaby',
-        description: 'Міцний,свіжий,найкраще поєднання текіли з фруктами',
         price: '180',
         image: ''
       },
@@ -297,13 +255,6 @@ export const dataBar = [
         title: 'Blue Island',
         description: 'Міцний коктейль для поціновувачів міцного алкоголя',
         price: '200',
-        image: ''
-      },
-      {
-        id: 18,
-        title: 'Boombayah',
-        description: 'Тропічний, солодкий коктейль з нотками кокоса та ананаса',
-        price: '170',
         image: ''
       },
       {
@@ -371,9 +322,9 @@ export const dataBar = [
       },
       {
         id: 28,
-        title: '',
-        description: '',
-        price: '',
+        title: 'Aviation',
+        description: 'Чудовий, легкий коктейль на джині',
+        price: '170',
         image: ''
       },
       {
@@ -416,6 +367,62 @@ export const dataBar = [
         title: 'White Lady',
         description: 'Цитрусовий коктейль на основі джину вразить вас обєднанням цитрусових в вашому келиху',
         price: '170',
+        image: ''
+      },
+      {
+        id: 35,
+        title: 'Lorna',
+        description: 'Чудове поєднання мангового джину та винного ройбушу',
+        price: '185',
+        image: ''
+      },
+      {
+        id: 36,
+        title: 'Negroni Sbagliato',
+        description: 'Класичний твіст на негроні з додаванням ігристого вина',
+        price: '170',
+        image: ''
+      },
+      {
+        id: 37,
+        title: 'Paradise',
+        description: 'Освіжаючий коктель на основі піско з ментоловим лікером',
+        price: '190',
+        image: ''
+      },
+      {
+        id: 38,
+        title: 'Riften',
+        description: 'Солодово-пряний з кисло-солодким смаком',
+        price: '180',
+        image: ''
+      },
+      {
+        id: 39,
+        title: 'Side Car',
+        description: 'Поєднання цитрусів та винограду чудово зіграє у вашому келиху',
+        price: '170',
+        image: ''
+      },
+      {
+        id: 40,
+        title: 'Gin tonic',
+        description: 'Крафтовий джин тонік на олеосахарумі та ягодами чорної смородини',
+        price: '145',
+        image: ''
+      },
+      {
+        id: 41,
+        title: 'XXX',
+        description: 'Джин на айві разом з бузиною гарантують вам незабутній смак за яким ви захочете вернутися',
+        price: '200',
+        image: ''
+      },
+      {
+        id: 42,
+        title: 'Baku Sour',
+        description: 'Пряно-фруктовий коктейль з свіжим післясмаком',
+        price: '180',
         image: ''
       },
     ]
@@ -629,6 +636,13 @@ export const dataBar = [
         ml: 'за 50мл',
         image: ''
       },
+      {
+        id: 20,
+        title: 'Crabbie (Irish)',
+        price: '95',
+        ml: 'за 50мл',
+        image: ''
+      },
     ]
   },
   {
@@ -636,7 +650,7 @@ export const dataBar = [
     data: [
       {
         id: 1,
-        title: 'Calvados Busnel',
+        title: 'Calvados Christian Drouin',
         price: '140',
         ml: 'за 50мл',
         image: ''
@@ -702,7 +716,7 @@ export const dataBar = [
     data: [
       {
         id: 1,
-        title: 'REYKA',
+        title: 'Divine (в асортименті)',
         price: '125',
         ml: 'за 50мл',
         image: ''
@@ -717,7 +731,7 @@ export const dataBar = [
       {
         id: 3,
         title: 'Absolute (в асортименті)',
-        price: '70',
+        price: '65',
         ml: 'за 50мл',
         image: ''
       },
@@ -831,7 +845,7 @@ export const dataBar = [
       },
       {
         id: 7,
-        title: 'Jagermeister',
+        title: 'Heretic',
         price: '90',
         ml: 'за 50мл',
         image: ''
@@ -864,13 +878,6 @@ export const dataBar = [
         ml: 'за 50мл',
         image: ''
       },
-      {
-        id: 12,
-        title: 'Charis',
-        price: '135',
-        ml: 'за 50мл',
-        image: ''
-      }
     ]
   },
   {
@@ -918,20 +925,27 @@ export const dataBar = [
       },
       {
         id: 2,
+        title: 'Craft Lemonade',
+        price: '50',
+        ml: 'за 250мл',
+        image: ''
+      },
+      {
+        id: 3,
         title: 'Energy',
         price: '45',
         ml: 'за 250мл',
         image: ''
       },
       {
-        id: 3,
+        id: 4,
         title: 'Tonik',
         price: '35',
         ml: 'за 250мл',
         image: ''
       },
       {
-        id: 4,
+        id: 5,
         title: 'Сік (в асортименті)',
         price: '30',
         ml: 'за 250мл',
