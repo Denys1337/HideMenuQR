@@ -63,7 +63,7 @@ export const dataFoodMenu = [
     id: 7,
     title: 'Стейк Особуко',
     description: 'Стейк із яловичої голяшки, заправлений соусом песто та овочі гриль',
-    price: '150',
+    price: '100',
     ml: 'за 100 г',
     image: Steak,
   },
@@ -85,7 +85,7 @@ export const dataFoodMenu = [
     id: 10,
     title: 'Картопля по-домашньому з мясом та грибами',
     description: 'Запечена картопля з пряною свининою та грибами',
-    price: '110',
+    price: '140',
     image: pottatoWithPork
   },
   {
@@ -93,7 +93,7 @@ export const dataFoodMenu = [
     title: 'Мідії у вершковому соусі',
     // eslint-disable-next-line no-useless-concat
     description: 'Мідії заправлені вершовим соусом з сиром Пармезан, подається разом з грінками',
-    price: '190',
+    price: '165',
     image: Midiya,
   },
   {
