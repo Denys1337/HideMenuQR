@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 // images
-import Coctail from '../assets/images/1.png';
+// import Coctail from '../assets/images/1.png';
 import Burger from '../assets/images/burger-min.png';
 import Aioli from '../assets/images/aioli-min.png';
 import ChikenTapaka from '../assets/images/chikenTapaka-min.png';
@@ -14,6 +14,46 @@ import springRoll from '../assets/images/springRoll-min.png';
 import Steak from '../assets/images/Steak-min.png';
 import dep from '../assets/images/dep-min.jpg';
 import basturma from '../assets/images/basturma.jpg';
+// bar
+import mariaWogaito from '../assets/images/bar/MarieWaigo.png';
+import AperolSpritz from '../assets/images/bar/AperolSpritz.png';
+import BakuSour from '../assets/images/bar/BakuSour.png';
+import BlueIsland from '../assets/images/bar/BlueIsland.png';
+// import Bumbaaia from '../assets/images/bar/Bumbaia.png';
+import Daiquri from '../assets/images/bar/Daiquri.png';
+import French75 from '../assets/images/bar/French75.png';
+import GinTonik from '../assets/images/bar/GinTonik.png';
+// import ItsToLate from '../assets/images/bar/ItsToLate.png';
+import Lorna from '../assets/images/bar/Lorna.png';
+import margarita from '../assets/images/bar/margarita.png';
+import Mickronesia from '../assets/images/bar/Mickronesia.png';
+// import National from '../assets/images/bar/National.png';
+import NewYork from '../assets/images/bar/NewYork.png';
+import OldFasion from '../assets/images/bar/OldFasion.png';
+import Paradise from '../assets/images/bar/Paradise.png';
+import PinkVenom from '../assets/images/bar/PinkVenom.png';
+import PiscoMangoSour from '../assets/images/bar/PiscoMangoSour.png';
+import Unholy from '../assets/images/bar/Unholy.png';
+import WiskeySour from '../assets/images/bar/WiskeySour.png';
+import XXX from '../assets/images/bar/XXX.png';
+import AmaretoSour from '../assets/images/bar/AmaretoSour.png';
+import automnSky from '../assets/images/bar/automnSky.png';
+import Aviation from '../assets/images/bar/Aviation.png';
+import BlackSpace from '../assets/images/bar/BlackSpace.png';
+import bulivardie from '../assets/images/bar/bulivardie.png';
+import CherryBoom from '../assets/images/bar/CherryBoom.png';
+import cokies from '../assets/images/bar/cokies.png';
+import manheten from '../assets/images/bar/manheten.png';
+import Mascarad from '../assets/images/bar/Mascarad.png';
+import negroni from '../assets/images/bar/negroni.png';
+import negroniSbaliato from '../assets/images/bar/negroniSbaliato.png';
+import Riften from '../assets/images/bar/Riften.png';
+import SideCar from '../assets/images/bar/SideCar.png';
+import Unickorn from '../assets/images/bar/Unickorn.png';
+import WhiteLady from '../assets/images/bar/WhiteLady.png';
+// import redHoliday from '../assets/images/bar/redHoliday.png';
+// import ChoiceAndFrend from '../assets/images/bar/ChoiceAndFrend.png';
+// import alternativePlesuare from '../assets/images/bar/alternativePlesuare.png';
 
 export const dataFoodMenu = [
   {
@@ -48,7 +88,7 @@ export const dataFoodMenu = [
     id: 5,
     title: 'Тайський бургер',
     description: 'Філе лосося, авокадо, огірок, томат, ромен, сир Філадельфія, горіховий соус, соус Унагі, тайська булка',
-    price: '220',
+    price: '250',
     image: Burger,
   },
   {
@@ -184,35 +224,35 @@ export const dataBar = [
         title: 'Марі Уайтго',
         description: 'Cолодкий коктейль , з кавово горіховим присмаком',
         price: '190',
-        image: Coctail
+        image: mariaWogaito
       },
       {
         id: 2,
         title: 'Мікронезія',
         description: 'Кисло-солодкий з вираженим присмаком тропічних фруктів ',
         price: '220',
-        image: ''
+        image: Mickronesia
       },
       {
         id: 6,
         title: 'Amaretto sour',
         description: 'Легкий,горіховий,з легкою кислинкою',
         price: '200',
-        image: ''
+        image: AmaretoSour
       },
       {
         id: 9,
         title: 'Pisco mango sour',
         description: 'Класичний сауер на перуанській горілці з цікавим післясмаком манго',
         price: '170',
-        image: ''
+        image: PiscoMangoSour
       },
       {
         id: 10,
         title: 'Masquerade',
         description: 'Солодкий,міцність розривається вкінці,поєднання фруктових ромів з нашою фірмовою настоянкою точно не залишить вас байдужими',
         price: '180',
-        image: ''
+        image: Mascarad
       },
       {
         id: 11,
@@ -220,7 +260,7 @@ export const dataBar = [
         // eslint-disable-next-line no-useless-concat
         description: 'Пряний,міцний,трав' + 'яний, точно знайде свого поціновувача',
         price: '180',
-        image: ''
+        image: BlackSpace
       },
       {
         id: 13,
@@ -234,196 +274,196 @@ export const dataBar = [
         title: 'Unholy',
         description: 'Cолодкий,фруктовий,з післясмаком шоколаду',
         price: '170',
-        image: ''
+        image: Unholy
       },
       {
         id: 15,
         title: 'Aperol Spritz',
         description: 'Легкий літній коктейль, відомий всім, з легкою ноткою гіркоти',
         price: '170',
-        image: ''
+        image: AperolSpritz
       },
       {
         id: 16,
         title: 'Autumn Sky',
         description: 'Кисло-солодкий з фрутово-пряний післясмак',
         price: '180',
-        image: ''
+        image: automnSky
       },
       {
         id: 17,
         title: 'Blue Island',
         description: 'Міцний коктейль для поціновувачів міцного алкоголя',
         price: '200',
-        image: ''
+        image: BlueIsland
       },
       {
         id: 19,
         title: 'Boulevardier',
         description: 'Міцний коктейль, в міру солодкий з легкою гірчинкою',
         price: '170',
-        image: ''
+        image: bulivardie
       },
       {
         id: 20,
         title: 'Cherry boom',
         description: 'Солодкий, вишневий смак, так як вишня є символом Вінниці',
         price: '170',
-        image: ''
+        image: CherryBoom
       },
       {
         id: 21,
         title: 'Cookies',
         description: 'Солодкий коктейль зі смаком печива',
         price: '170',
-        image: ''
+        image: cokies
       },
       {
         id: 22,
         title: 'Daiquiri',
         description: 'Відомий на весь світ, кисло-солодкий ромовий коктейль',
         price: '170',
-        image: ''
+        image: Daiquri
       },
       {
         id: 23,
         title: 'French 75',
         description: 'Легкий джиновий коктейль з ароматом цитруса і ноткою ігристого вина',
         price: '170',
-        image: ''
+        image: French75
       },
       {
         id: 24,
         title: 'Manhattan',
         description: 'Ідеально збалансований міцність і смак',
         price: '170',
-        image: ''
+        image: manheten
       },
       {
         id: 25,
         title: 'Margarita',
         description: 'Жарке поєднання мексиканського смаку та цитрусових ноток',
         price: '170',
-        image: ''
+        image: margarita
       },
       {
         id: 26,
         title: 'Negroni',
         description: 'Відомий в всьому світі коктейль , про який не потрібно розповідати',
         price: '170',
-        image: ''
+        image: negroni
       },
       {
         id: 27,
         title: 'New York Sour',
         description: 'Найвідоміший твіст на Whiskey Sour, з додаванням червоного вина',
         price: '170',
-        image: ''
+        image: NewYork
       },
       {
         id: 28,
         title: 'Aviation',
         description: 'Чудовий, легкий коктейль на джині',
         price: '170',
-        image: ''
+        image: Aviation
       },
       {
         id: 29,
         title: 'Old Fashioned',
         description: 'Вишукана подача віскі з легкою солодкістют та травами',
         price: '170',
-        image: ''
+        image: OldFasion
       },
       {
         id: 30,
         title: 'Pink Venom',
         description: 'Легкий джиновий коктейль з якідними нотами',
         price: '180',
-        image: ''
+        image: PinkVenom
       },
-      {
-        id: 31,
-        title: 'Robert Paulson',
-        description: 'Легкий, вершковий коктейль',
-        price: '180',
-        image: ''
-      },
+      // {
+      //   id: 31,
+      //   title: 'Robert Paulson',
+      //   description: 'Легкий, вершковий коктейль',
+      //   price: '180',
+      //   image: ''
+      // },
       {
         id: 32,
         title: 'Unicorn',
         description: 'Солодкий коктейль зі смаком кокосу та мускатного горіха',
         price: '180',
-        image: ''
+        image: Unickorn
       },
       {
         id: 33,
         title: 'Whiskey Sour',
         description: 'Міцний, кисло-солодкий коктейль, який знайшов своїх прихильників по всьому світу',
         price: '170',
-        image: ''
+        image: WiskeySour
       },
       {
         id: 34,
         title: 'White Lady',
         description: 'Цитрусовий коктейль на основі джину вразить вас обєднанням цитрусових в вашому келиху',
         price: '170',
-        image: ''
+        image: WhiteLady
       },
       {
         id: 35,
         title: 'Lorna',
         description: 'Чудове поєднання мангового джину та винного ройбушу',
         price: '185',
-        image: ''
+        image: Lorna
       },
       {
         id: 36,
         title: 'Negroni Sbagliato',
         description: 'Класичний твіст на негроні з додаванням ігристого вина',
         price: '170',
-        image: ''
+        image: negroniSbaliato
       },
       {
         id: 37,
         title: 'Paradise',
         description: 'Освіжаючий коктель на основі піско з ментоловим лікером',
         price: '190',
-        image: ''
+        image: Paradise
       },
       {
         id: 38,
         title: 'Riften',
         description: 'Солодово-пряний з кисло-солодким смаком',
         price: '180',
-        image: ''
+        image: Riften
       },
       {
         id: 39,
         title: 'Side Car',
         description: 'Поєднання цитрусів та винограду чудово зіграє у вашому келиху',
         price: '170',
-        image: ''
+        image: SideCar
       },
       {
         id: 40,
         title: 'Gin tonic',
         description: 'Крафтовий джин тонік на олеосахарумі та ягодами чорної смородини',
         price: '145',
-        image: ''
+        image: GinTonik
       },
       {
         id: 41,
         title: 'XXX',
         description: 'Джин на айві разом з бузиною гарантують вам незабутній смак за яким ви захочете вернутися',
         price: '200',
-        image: ''
+        image: XXX
       },
       {
         id: 42,
         title: 'Baku Sour',
         description: 'Пряно-фруктовий коктейль з свіжим післясмаком',
         price: '180',
-        image: ''
+        image: BakuSour
       },
     ]
   },
