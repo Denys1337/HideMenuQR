@@ -153,61 +153,61 @@ export const dataFoodMenu = [
 ];
 
 export const dataBArMenu = [
-  {
-    id: 'tequila',
-    link: '#tequila',
-    title: 'Tequila',
-  },
-  {
-    id: 'rom',
-    link: '#rom',
-    title: 'Rum',
-  },
-  {
-    id: 'wiskey',
-    link: '#wiskey',
-    title: 'Wiskey',
-  },
-  {
-    id: 'gin',
-    link: '#gin',
-    title: 'Gin',
-  },
-  {
-    id: 'brendy',
-    link: '#brendy',
-    title: 'Brendy',
-  },
+  // {
+  //   id: 'tequila',
+  //   link: '#tequila',
+  //   title: 'Tequila',
+  // },
+  // {
+  //   id: 'rom',
+  //   link: '#rom',
+  //   title: 'Rum',
+  // },
+  // {
+  //   id: 'wiskey',
+  //   link: '#wiskey',
+  //   title: 'Wiskey',
+  // },
+  // {
+  //   id: 'gin',
+  //   link: '#gin',
+  //   title: 'Gin',
+  // },
+  // {
+  //   id: 'brendy',
+  //   link: '#brendy',
+  //   title: 'Brendy',
+  // },
   {
     id: 'coktails',
     link: '#coktails',
     title: 'Coktails',
   },
-  {
-    id: 'vodka',
-    link: '#vodka',
-    title: 'Vodka',
-  },
-  {
-    id: 'vine',
-    link: '#vine',
-    title: 'Vine',
-  },
-  {
-    id: 'liqueurs',
-    link: '#liqueurs',
-    title: 'Liqueurs',
-  },
-  {
-    id: 'beer',
-    link: '#beer',
-    title: 'Beer and Cider',
-  },
-  {
-    id: 'nonAlcohol',
-    link: '#nonAlcohol',
-    title: 'Non Alcohol',
-  },
+  // {
+  //   id: 'vodka',
+  //   link: '#vodka',
+  //   title: 'Vodka',
+  // },
+  // {
+  //   id: 'vine',
+  //   link: '#vine',
+  //   title: 'Vine',
+  // },
+  // {
+  //   id: 'liqueurs',
+  //   link: '#liqueurs',
+  //   title: 'Liqueurs',
+  // },
+  // {
+  //   id: 'beer',
+  //   link: '#beer',
+  //   title: 'Beer and Cider',
+  // },
+  // {
+  //   id: 'nonAlcohol',
+  //   link: '#nonAlcohol',
+  //   title: 'Non Alcohol',
+  // },
   {
     id: 'crash',
     link: '#crash',
