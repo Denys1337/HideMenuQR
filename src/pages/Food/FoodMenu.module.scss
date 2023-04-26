@@ -29,9 +29,17 @@
 }
 
 .backToMenu {
+	background: #000;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+
 	a {
 		text-decoration: none;
-		color: #000;
+		color: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
 		span {
 			font-size: 30px;
 		}

@@ -12,7 +12,6 @@ const Bar = () => {
 		const data = dataBar.filter(item => item.id === id);
 		return data[0].data.map(item => item);
 	};
-	console.log('object');
 	return (
 		<div className={styles.wrapper}>
 			<h2 className={styles.backToMenu}>
